@@ -1,0 +1,58 @@
+html {
+    height: 100%;
+}
+body{
+    background-color: #CADC9F;
+    margin: 0;
+    height: 100%;
+}    
+
+img {
+    justify-content: flex-start;
+    display: block;
+}
+h1 {
+	font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: 100px;
+    text-align: center;
+    color:green;
+    position: relative;
+
+    animation-name: example;
+    animation-duration: 10s;
+}
+
+@keyframes example {
+    0%   {color:green; left:0px;}
+  25%  {color:rgb(145, 16, 16); left:100px;}
+  75%  {color:rgb(226, 142, 5); left:-100px;}
+  100% {color:green; left:0px;}
+  }
+
+
+
+
+p {
+	
+    color: darkolivegreen;
+	font-family: 'Noto Sans TC', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+
+    background-color: #CADC9F;
+    padding: 5px 10px 50px 10px;;
+    margin: 20px 10px 50px 10px;
+}
+
+div {
+    justify-content: center;
+    
+  
+  
+}
+
+.content {
+    display: flex;
+}
