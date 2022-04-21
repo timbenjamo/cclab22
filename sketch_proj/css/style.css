@@ -1,15 +1,23 @@
 html {
     height: 100%;
+    margin: 0;
+    padding: 0;
 }
+
 body{
     /* background-image: url("Background.jpg"); */
     background-color: #000000;
     margin: 0;
     height: 100%;
     width: 100%;
-
-
 }    
+
+canvas{
+    display: block;
+    top:50%;
+    left: 5%;
+    background:(0);
+}
 
 h1 {
     /*this font is from Google Fonts. The href was copied from there*/
@@ -138,10 +146,18 @@ div {
 	
 }
 
-/* #canvasContainer{
-    position:relative;
-    left: 5%;
-    margin:0px;
-    padding:0px;
-    text-align:center;
-} */
+#beachContent {
+    justify-content: right;
+    
+    left: 2%;
+    right: 80%;
+}
+
+#dancerContent {
+    justify-content: left;
+    
+    left: 80%;
+    right: 2%;
+}
+
+
