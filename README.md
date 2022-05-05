@@ -6,4 +6,4 @@ Project 1: https://timbenjamo.github.io/cclab22/proj1
 
 Project 2: https://timbenjamo.github.io/cclab22/sketch_proj
 
-Project B: https://timbenjamo.github.io/cclab22/PROJECT_B_-_TIMOTHY_FRAHER
+Project B: https://timbenjamo.github.io/cclab22/PROJB
