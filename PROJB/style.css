@@ -94,7 +94,14 @@ p {
 
 }
 
-div.c {
+p2 {
+  font-family: 'Oldenburg', cursive;
+  /* font-weight: bold; */
+  font-size: 20px;
+  /* text-align: center; */
+  color:rgb(0, 0, 0);
+
   top:80%;
+  left: 90%;
   text-align: center;
 }
