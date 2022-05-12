@@ -1,47 +1,85 @@
 html, body {
   margin: 0;
   padding: 0;
+  background-color: blanchedalmond;
 }
 canvas {
   display: block;
+  
 }
+
 
 html {
   height: 100%;
 }
 body{
-  background-color: #000000;
+  background-color: blanchedalmond;
   margin: 0;
   height: 100%;
 }    
 
 
-div {
-  justify-content: center;
+/* div {
   border: #093267;
+  margin: 10%;
+  padding: 10%;
+ 
+  left: 50;
+
+} */
+
+div.b {
+  
   margin: 5%;
   padding: 5%;
+  text-align: right;
+  right: 0;
+  flex-wrap: wrap;
+
 }
 
 .content {
   display: flex;
 }
 
-h2 {
+h1 {
+  font-family: 'Oldenburg', cursive;
   font-weight: bold;
-  font-size: 50px;
+  font-size: 60px;
+  /* text-align: center; */
+  color:rgb(153, 17, 17);
+  position: absolute;
+  right: 0;
+
+}
+
+h2 {
+  font-family: 'Oldenburg', cursive;
+  font-weight: bold;
+  font-size: 40px;
+  /* text-align: center; */
+  color:rgb(0, 0, 0);
+  position: fixed;
   text-align: center;
-  color:rgb(222, 255, 222);
-  position: relative;
+  left: 50;
+  right: 5%;
+  flex-wrap: wrap;
 
 }
 
 p {
+  font-family: 'Oldenburg', cursive;
   /* font-weight: bold; */
-  font-size: 30px;
-  text-align: center;
-  color:rgb(232, 255, 232);
-  position: relative;
+  font-size: 20px;
+  /* text-align: center; */
+  color:rgb(0, 0, 0);
+  position: fixed;
+  text-align: right;
+  right: 5%;
+  top: 35%;
+  left: 55%;
+  flex-shrink: calc();
+  
 
 }
 
@@ -56,3 +94,7 @@ p {
 
 }
 
+div.c {
+  top:80%;
+  text-align: center;
+}
